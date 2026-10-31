@@ -217,8 +217,11 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 This laboratory is intended strictly for education purposes only.
 🔗 Tools & Resources
 
+ 
  7-Zip: https://7-zip.org/download.html
+ 
  VirtualBox: https://virtualbox.org/wiki/Downloads
+ 
  Kali Linux: https://kali.org/get-kali
 
 👤 Author
