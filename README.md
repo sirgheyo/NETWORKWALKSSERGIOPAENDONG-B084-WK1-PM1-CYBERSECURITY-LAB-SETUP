@@ -6,19 +6,20 @@ This project focuses on setting up a virtual cybersecurity and penetration-testi
 The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
 
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
+
 🎯 Objectives
 
 The main objectives of this project are to:
 
-    Install and configure VirtualBox.
-    Install/import Kali Linux as a virtual machine.
-    Create a private NAT Network for the cybersecurity lab.
-    Configure network connectivity for Kali Linux.
-    Assign a consistent IP address to the Kali VM.
-    Verify network connectivity and DNS resolution.
-    Take a clean VM snapshot for recovery.
-    Document the complete setup process.
-    Prepare the environment for future cybersecurity projects.
+Install and configure VirtualBox.
+Install/import Kali Linux as a virtual machine.
+Create a private NAT Network for the cybersecurity lab.
+Configure network connectivity for Kali Linux.
+Assign a consistent IP address to the Kali VM.
+Verify network connectivity and DNS resolution.
+Take a clean VM snapshot for recovery.
+Document the complete setup process.
+Prepare the environment for future cybersecurity projects.
 
 🛡️ Purpose of the Lab
 
@@ -26,18 +27,19 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 
 It can be used for activities such as:
 
-    Network reconnaissance
-    Port scanning
-    Vulnerability assessment
-    Packet analysis
-    Web security testing
-    Exploitation practice
-    Security-tool experimentation
+Network reconnaissance
+Port scanning
+Vulnerability assessment
+Packet analysis
+Web security testing
+Exploitation practice
+Security-tool experimentation
 
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 🏗️ Lab Architecture
 
 Additional target machines can be added to the same virtual network in future projects.
+
 ⚙️ Lab Configuration
 🧩 Component 	⚙️ Configuration
 🖥️ Host OS 	Windows 10
@@ -150,12 +152,12 @@ The VM initially failed to start because hardware virtualization was disabled in
 
 The issue was resolved by:
 
-    Restarting the computer.
-    Entering BIOS/UEFI settings.
-    Enabling Intel VT-x / hardware virtualization.
-    Saving the configuration.
-    Restarting the computer.
-    Starting the Kali VM again.
+ Restarting the computer.
+ Entering BIOS/UEFI settings.
+ Enabling Intel VT-x / hardware virtualization.
+ Saving the configuration.
+ Restarting the computer.
+ Starting the Kali VM again.
 
 After enabling virtualization, the VM started successfully.
 💡 What I Learned
@@ -189,9 +191,9 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 This laboratory is intended strictly for education purposes only.
 🔗 Tools & Resources
 
-    7-Zip: https://7-zip.org/download.html
-    VirtualBox: https://virtualbox.org/wiki/Downloads
-    Kali Linux: https://kali.org/get-kali
+ 7-Zip: https://7-zip.org/download.html
+ VirtualBox: https://virtualbox.org/wiki/Downloads
+ Kali Linux: https://kali.org/get-kali
 
 👤 Author
 
